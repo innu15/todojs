@@ -34,7 +34,7 @@ function showData() {
             }
             if (todo[i].task[j].completed === 'true') {
                 console.log("true")
-                s += "<div style='width:200px;text-decoration: line-through;' id='todo" + j + "'>" + todo[i].task[j].task + "</div>"
+                s += "<div style='width:200px;height:70%;text-decoration: line-through;' id='todo" + j + "'>" + todo[i].task[j].task + "</div>"
             }
         }
         s+="</div>"
